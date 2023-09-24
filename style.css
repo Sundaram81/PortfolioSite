@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.svm{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: grey;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content:space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: disc;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: aquamarine;
+}
+
+.details{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.details h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+span{
+    color: red;
+}
+
+.details p{
+    color: brown;
+    line: height 22px; ;
+}
+
+.details a{
+        background: #212121;
+        padding: 10px 18px;
+        text-decoration: none;
+        font-weight: bold;
+        color: azure;
+        display: inline-block;
+        margin: 30px 0;
+        border-radius: 5%;
+}
+
+.images{
+    width: 35%;
+    height: 70%;
+    position: absolute;
+    bottom: 3px;
+    right: 10px;
+}
+
+footer{
+   color: grey;
+}
+
+.main{
+    background-color: grey;
+}
+
+.contactform{
+    padding: 0 14px;
+    padding-top: 144px;
+
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0  0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogitem {
+    margin: 20px; 
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+h1{
+
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin: 23px;
+}
+
+h1{
+
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin: 23px;
+}
+
+p{
+    font-family: 'Source Code Pro', monospace;
+}
+ 
+.intro h2{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    margin:12px;
+}
+
+.intro p{
+    font-family: 'Source Code Pro', monospace;
+    margin:12px;
+}
+
+
+.skillcontainer{
+    padding: 12px;
+}
+
+
+.skillitem{
+    display: flex;
+     align-items: center;
+     font-family: 'Source Code Pro', monospace;
+     font-weight: 900;
+}
+
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+
+.HTML{
+    width: 265px;
+    background-color: blueviolet;
+}
+
+
+.CSS{
+    width: 125px;
+    background-color: aliceblue;
+}
+
+
+.PYTHON{
+    width: 75px;
+    background-color: yellow;
+}
+
+.resume h1{
+    margin: 10px 10px;
+    padding: 10px 0;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.resume p{
+    padding: 10px 10px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+   
+   
+}
+.resume table img{
+    padding: 10px 10px;
+
+}
+.resume table p{
+    font-family: 'Source Code Pro', monospace;
+
+}
+.resume h2{
+    padding: 10px 10px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    
+}
+.resume ul li{
+    margin: 10px 10;
+    padding :10px 5px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+ 
+    margin: 0 15px;
+    
+}
+.resume footer{
+    padding: 20px 10px;
+}
